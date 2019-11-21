@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fc2dc39-361b-4887-a2f8-2064f6e7dd16" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Tn3eoW3OBe8hw7efvh3WRBhCZq" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JAR Application.Unnamed">
+    <configuration name="PUKChallengeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puk-auth-spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rhsso.authenticator.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rhsso.authenticator.challenge" />
+      <option name="MAIN_CLASS_NAME" value="rhsso.authenticator.challenge.PUKChallengeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PUKChallengeTest.inputArray10To3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puk-auth-spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rhsso.authenticator.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rhsso.authenticator.challenge" />
+      <option name="MAIN_CLASS_NAME" value="rhsso.authenticator.challenge.PUKChallengeTest" />
+      <option name="METHOD_NAME" value="inputArray10To3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PUKChallengeTest.inputArray10With3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puk-auth-spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rhsso.authenticator.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rhsso.authenticator.challenge" />
+      <option name="MAIN_CLASS_NAME" value="rhsso.authenticator.challenge.PUKChallengeTest" />
+      <option name="METHOD_NAME" value="inputArray10With3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PUKChallengeTest.inputArray7With5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puk-auth-spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rhsso.authenticator.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rhsso.authenticator.challenge" />
+      <option name="MAIN_CLASS_NAME" value="rhsso.authenticator.challenge.PUKChallengeTest" />
+      <option name="METHOD_NAME" value="inputArray7With5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PUKChallengeTest.instance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="puk-auth-spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rhsso.authenticator.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rhsso.authenticator.challenge" />
+      <option name="MAIN_CLASS_NAME" value="rhsso.authenticator.challenge.PUKChallengeTest" />
+      <option name="METHOD_NAME" value="instance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <module name="puk-auth-spi" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="JUnit.PUKChallengeTest" />
+      <item itemvalue="JUnit.PUKChallengeTest.inputArray7With5" />
+      <item itemvalue="JUnit.PUKChallengeTest.inputArray10To3" />
+      <item itemvalue="JUnit.PUKChallengeTest.inputArray10With3" />
+      <item itemvalue="JUnit.PUKChallengeTest.instance" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PUKChallengeTest" />
+        <item itemvalue="JUnit.PUKChallengeTest.inputArray7With5" />
+        <item itemvalue="JUnit.PUKChallengeTest.inputArray10With3" />
+        <item itemvalue="JUnit.PUKChallengeTest.inputArray10To3" />
+        <item itemvalue="JUnit.PUKChallengeTest.instance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fc2dc39-361b-4887-a2f8-2064f6e7dd16" name="Default Changelist" comment="" />
+      <created>1574082129691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574082129691</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rhsso/authenticator/challenge/PUKChallengeTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rhsso/authenticator/challenge/PUKChallengeTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rhsso/authenticator/challenge/PUKChallengeTest.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rhsso/authenticator/challenge/PUKChallenge.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rhsso/authenticator/PUKAuthenticator.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this.inputLength - i" language="JAVA" />
+        <watch expression="this.inputLength - i * Math.random()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

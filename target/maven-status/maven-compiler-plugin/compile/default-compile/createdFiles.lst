@@ -1,0 +1,5 @@
+rhsso/authenticator/PUKAuthenticator.class
+rhsso/authenticator/PUKConstants.class
+rhsso/authenticator/challenge/PUKChallenge.class
+rhsso/authenticator/PUKAuthenticatorFactory.class
+rhsso/authenticator/Utils.class
