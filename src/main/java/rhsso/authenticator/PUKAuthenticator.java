@@ -41,11 +41,10 @@ public class PUKAuthenticator implements Authenticator {
             context.resetFlow();
             return;
         }
-        PUKChallenge challenge = new PUKChallenge();
+
         AuthenticatorConfigModel config = context.getAuthenticatorConfig();
-        challenge.setInputLength(Integer.valueOf(config.getConfig().get(PUKConstants.CONFIG_PUK_CODE_LENGTH)));
-        challenge.setNoOfInputs(Integer.valueOf(config.getConfig().get(PUKConstants.CONFIG_PUK_NO_OF_INPUTS)));
-        challenge.setAuthContext(context);
+        PUKChallenge challenge = new PUKChallenge(Integer.valueOf(config.getConfig().get(PUKConstants.CONFIG_PUK_CODE_LENGTH)),Integer.valueOf(config.getConfig().get(PUKConstants.CONFIG_PUK_NO_OF_INPUTS)),context);
+
         if(challenge.isValid(formData)){
             context.success();
             return;

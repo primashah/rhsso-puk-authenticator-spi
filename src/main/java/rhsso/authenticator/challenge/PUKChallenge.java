@@ -82,9 +82,9 @@ public class PUKChallenge {
     public Response getErrorChallenge(){
         Response challenge = this.authContext.form()
                 .setError(PUKConstants.INVALID_PUK_CODE_MESSAGE)
-                .setAttribute("inputLength", 0)
-                .setAttribute("inputArray",new ArrayList<Integer>())
-                .setAttribute("firstUnMaskedInput", 0)
+                .setAttribute("inputLength", this.inputLength)
+                .setAttribute("inputArray", this.inputArray)
+                .setAttribute("firstUnMaskedInput", this.firstUnMaskedInput)
                 .createForm(PUKInputForm);
         return challenge;
     }

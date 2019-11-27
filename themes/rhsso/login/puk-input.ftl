@@ -21,52 +21,49 @@
 
             <form id="kc-totp-login-form" class="${properties.kcFormClass!}" action="${url.loginAction}" method="post">
                 <div class="${properties.kcFormGroupClass!}">
-                    <div class="${properties.kcLabelWrapperClass!}">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-8">
                         <label  class="${properties.kcLabelClass!}">Please enter PUK number</label>
+
+
+                        <div style="width:100%">
+
+
+
+                                    <#list inputArray as item>
+
+
+                                    <#if item == 1>
+                                        <#if item?counter == firstUnMaskedInput>
+                                             <input  onkeyup="onPUKCodeKeyUp(${item?counter})" type="text"  id="input_puk_${item?counter}" maxlength="1" autofocus name="input_puk_${item?counter}" type="text" class="code-input-text code-input-text-unmasked" />
+                                        <#else>
+                                        <input type="text"  onkeyup="onPUKCodeKeyUp(${item?counter})"  id="input_puk_${item?counter}" maxlength="1" name="input_puk_${item?counter}" type="text" class="code-input-text code-input-text-unmasked" />
+                                        </#if>
+
+                                    <#elseif item == 0>
+                                    <input type="text"  class="code-input-text code-input-text-masked" disabled  type="text"  />
+                            <input   id="input_puk_${item?counter}" name="input_puk_${item?counter}"     type="hidden"  />
+                                     </#if>
+
+
+                                </#list>
+
+
                     </div>
 
-                    <div class="${properties.kcInputWrapperClass!}">
-
-
-                                <div  class="row"   >
-                                    <div class="col"  >
-                                <#list inputArray as item>
-
-
-                                <#if item == 1>
-                                    <#if item?counter == firstUnMaskedInput>
-                                         <input  onkeyup="onPUKCodeKeyUp(${item?counter})" type="text"  id="input_puk_${item?counter}" maxlength="1" autofocus name="input_puk_${item?counter}" type="text" class="code-input-text code-input-text-unmasked" />
-                                    <#else>
-                                    <input type="text"  onkeyup="onPUKCodeKeyUp(${item?counter})"  id="input_puk_${item?counter}" maxlength="1" name="input_puk_${item?counter}" type="text" class="code-input-text code-input-text-unmasked" />
-                                    </#if>
-
-                                <#elseif item == 0>
-                                <input type="text"  class="code-input-text code-input-text-masked" disabled  type="text"  />
-                        <input   id="input_puk_${item?counter}" name="input_puk_${item?counter}"     type="hidden"  />
-                                 </#if>
-
-
-                            </#list>
-                </div>
-
-
-
-
-
-
+                    </div>
+</div>
                 <div class="${properties.kcFormGroupClass!}">
-                    <div id="kc-form-options" class="${properties.kcFormOptionsClass!}">
-                        <div class="${properties.kcFormOptionsWrapperClass!}">
-                        </div>
-                    </div>
 
-                    <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
+
+
+                    <div id="kc-form-buttons" class="col-xs-8 col-sm-7 col-md-4 col-lg-8 submit">
                         <div class="${properties.kcFormButtonsWrapperClass!}">
                             <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" name="login" id="kc-login" type="submit" value="${msg("doLogIn")}"/>
                             <input class="${properties.kcButtonClass!} ${properties.kcButtonDefaultClass!} ${properties.kcButtonLargeClass!}" name="cancel" id="kc-cancel" type="submit" value="${msg("doCancel")}"/>
                         </div>
                     </div>
                 </div>
+
             </form>
 
     </#if>
@@ -85,16 +82,19 @@ text-align:center;
 
 
     .code-input-text-masked{
-    background-color:#eeeeee;
+    background-color:#bbb;
 
     }
     input[type=text]:focus {
     outline: none;
     border: 1px solid blue !important;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  border: 1px solid rgba(81, 203, 238, 1);
 }
 
 </style>
-<script >
+<script>
 
 
 function onPUKCodeKeyUp(currentElementIndex) {
