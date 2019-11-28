@@ -14,8 +14,16 @@ public class Utils {
         return String.valueOf(1234567);
 
     }
+
     public static String getUserVerificationCode(UserModel user){
         return user.getAttribute(PUKConstants.ATTR_PUK_CODE).isEmpty()? null:  user.getAttribute(PUKConstants.ATTR_PUK_CODE).get(0);
+    }
+
+    public static Boolean getUserOptIn(UserModel user){
+        return getBooleanAttribute(user, PUKConstants.ATTR_SMS_OPT_IN);
+    }
+    private static Boolean getBooleanAttribute(UserModel user,String attributeName){
+        return user.getAttribute(attributeName).isEmpty() ? false : Boolean.parseBoolean(user.getAttribute(attributeName).get(0));
     }
     // using StringBuilder.append()
     public static String convertArrayToStringMethod(String[] strArray) {

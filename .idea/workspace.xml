@@ -178,7 +178,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/rhsso/authenticator/PUKAuthenticator.java</url>
-          <line>38</line>
+          <line>46</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
